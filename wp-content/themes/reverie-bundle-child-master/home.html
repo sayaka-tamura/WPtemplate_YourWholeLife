@@ -1,0 +1,133 @@
+<!-- http://240fall13.blogs.peopleio.net/2013/09/30/responsive-navigation/
+ -->
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+   <div id="header" class="row">
+
+      <div class="large-5 columns">
+        <ul class="right button-group">
+        <li><a href="#" class="headerButton button">About</a></li>
+        <li><a href="#" class="headerButton button">Timeline</a></li>
+        <li><a href="#" class="headerButton button">Photo</a></li>
+        </ul>
+     </div>
+   </div>
+  
+<!-- End Header and Nav -->
+ 
+<!-- First Band (Slider) -->
+ 
+  <div class="row topImage">
+    <div class="large-12 columns">
+    <div id="slider">
+      <img src="http://placehold.it/1100x400&text=[ img 1 ]" />
+    </div>
+
+
+    <div class="slider">
+
+        <?php while ( have_posts() ) : the_post(); ?>
+        <a href="<?php the_permalink(); ?>">  <?php the_post_thumbnail('slider'); ?> </a>
+    <?php endwhile; ?>
+    </div>
+    
+    </div>
+  </div>
+  
+<!-- Three-up Content Blocks -->
+ 
+  <div class="row topContents upper">
+    <div class="large-4 columns">
+      <hr class="forTitleHr">
+      <h4>About</h4>
+      <hr class="forTitleHr">
+    </div>
+    
+    <div class="large-8 columns contentsDetail">
+      <h4>This is a content section.</h4>
+      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+    </div>
+  
+  </div>
+<!-- Three-up Content Blocks -->
+ 
+  <div class="row topContents down">
+    <div class="large-4 columns">
+      <hr class="forTitleHr">
+      <h4>Latest Post</h4>
+      <hr class="forTitleHr">
+    </div>
+    
+    <div class="large-8 columns contentsDetail">
+      <div class="small-10 small-centered medium-uncentered large-uncentered medium-6 large-6 columns" id="latestPostImg">
+            <img src="http://placehold.it/400x500&text=[img]" />
+      </div>
+      
+      <div class="medium-6 large-6 columns">
+        <h4>This is a content section.</h4>
+        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+        <br>
+        <p id="linkPostOrTimeline">Read <b><a class="toLink" href="###">This Post </a></b>or go to <b><a class="toLink" href="###">Your Timeline</a></b></p>
+      </div>
+    </div>
+  </div>
+    
+  </div>
+ 
+  <!-- Footer -->
+  
+  <footer class="row">
+  <div class="footerListContainer large-hide">
+    <div class="small-4">
+        <h6>Achieve</h6>
+        <ul class="footerList">
+          <li>March 2010</li>
+          <li>February 2010</li>
+          <li>January 2010</li>
+          <li>December 2010</li>
+          <li>November 2010</li>
+        </ul>
+    </div>
+    
+    <div class="small-4">
+        <h6>Authors</h6>
+        <ul class="footerList">
+          <li>XXXX XXXXX</li>
+          <li>HHHHH XXXXX</li>
+          <li>BBBB XXXXX</li>
+          <li>SSSSSS AAAAAAA</li>
+        </ul>
+    </div>
+
+    <div class="small-4">
+        <h6>Photo</h6>
+        <ul class="footerList">
+          <li>March 2010</li>
+          <li>February 2010</li>
+          <li>January 2010</li>
+          <li>December 2010</li>
+          <li>November 2010</li>
+        </ul>
+    </div>
+  </div>
+
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns footerLeft">
+          <p>A Whole Your Life</p>
+        </div>
+    <div class="large-6 columns footerRight">
+          <p>Designed by Sayaka Tamura 2014&copy;</p>
+        </div>
+      </div>
+    </div> 
+  </footer>
+    
+</body>
+</html>

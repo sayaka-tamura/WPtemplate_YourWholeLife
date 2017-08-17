@@ -1,0 +1,40 @@
+/*
+Theme Name:         Reverie-Bundle
+Theme URI:          
+Description:        Reverie-Bundle is a version of Reverie that you can use without needing to install the Foundation Gem. The bower components have also been removed. The modifications were made so that students learning theme development could use it on school computers where they don't have control over whether things like gems or bower are installed. Reverie itself is a versatile HTML5 responsive WordPress framework based on ZURB's Foundation.
+
+Version:            1.0.0
+Author:             Chris Stein
+Author URI:         http://themefortress.com/
+
+License:            MIT License
+License URI:        http://www.opensource.org/licenses/mit-license.php
+*/
+
+/* -------------------------------------------------- 
+	Orginal Reverie theme: http://themefortress.com/reverie/
+
+	This Bundle is based on Reverie version 5.0.0
+	Reverie is created by Zhen Huang
+	You can find Zhen at http://themefortress.com/
+
+
+	This stylesheet will not be loaded by default.
+	
+	The main stylesheet is located in css/style.css 
+	and the Sass file that creates it is scss/style.scss.
+
+	Reverie uses lib/enqueue-style.php to load css/app.css and css/style.css
+	The functions.php file loads the lib/enqueue-style.php
+
+	Reverie-Bundle has been modified from the orginal Reverie to include all foundation scss files so that you don't have to have the foundation gem installed to compile the Sass.
+	You will need to have Compass installed or a GUI compiler that will compile Compass. Two free options are
+	
+	Prepros: http://alphapixels.com/prepros/
+	Scout: http://mhs.github.io/scout-app/
+	
+	So you will be able to modify the styles using the files in the scss folder.
+
+  Make sure you have a Sass compiler running and that it is set to watch the files in the scss folder and output to the css folder.
+
+-------------------------------------------------- */

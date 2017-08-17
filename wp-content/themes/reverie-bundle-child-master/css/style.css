@@ -1,0 +1,901 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,300);
+/* Welcome and glad you are using Reverie.
+ * This is the main stylesheet loaded by default.
+ * Edit the file and have fun.
+ * http://themefortress.com/reverie */
+/* line 300, ../scss/foundation/components/_global.scss */
+meta.foundation-version {
+  font-family: "/5.2.1/";
+}
+
+/* line 305, ../scss/foundation/components/_global.scss */
+meta.foundation-mq-small {
+  font-family: "/only screen and (max-width: 40em)/";
+  width: 0em;
+}
+
+/* line 310, ../scss/foundation/components/_global.scss */
+meta.foundation-mq-medium {
+  font-family: "/only screen and (min-width:40.063em)/";
+  width: 40.063em;
+}
+
+/* line 315, ../scss/foundation/components/_global.scss */
+meta.foundation-mq-large {
+  font-family: "/only screen and (min-width:64.063em)/";
+  width: 64.063em;
+}
+
+/* line 320, ../scss/foundation/components/_global.scss */
+meta.foundation-mq-xlarge {
+  font-family: "/only screen and (min-width:90.063em)/";
+  width: 90.063em;
+}
+
+/* line 325, ../scss/foundation/components/_global.scss */
+meta.foundation-mq-xxlarge {
+  font-family: "/only screen and (min-width:120.063em)/";
+  width: 120.063em;
+}
+
+/* line 330, ../scss/foundation/components/_global.scss */
+meta.foundation-data-attribute-namespace {
+  font-family: false;
+}
+
+/* line 335, ../scss/foundation/components/_global.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 340, ../scss/foundation/components/_global.scss */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 345, ../scss/foundation/components/_global.scss */
+html,
+body {
+  font-size: 100%;
+}
+
+/* line 348, ../scss/foundation/components/_global.scss */
+body {
+  background: #f7f7f7;
+  color: #444444;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+}
+
+/* line 361, ../scss/foundation/components/_global.scss */
+a:hover {
+  cursor: pointer;
+}
+
+/* line 364, ../scss/foundation/components/_global.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 366, ../scss/foundation/components/_global.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 372, ../scss/foundation/components/_global.scss */
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object {
+  max-width: none !important;
+}
+
+/* line 377, ../scss/foundation/components/_global.scss */
+.left {
+  float: left !important;
+}
+
+/* line 378, ../scss/foundation/components/_global.scss */
+.right {
+  float: right !important;
+}
+
+/* line 379, ../scss/foundation/components/_global.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 145, ../scss/foundation/components/_global.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 146, ../scss/foundation/components/_global.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 380, ../scss/foundation/components/_global.scss */
+.hide {
+  display: none;
+}
+
+/* line 386, ../scss/foundation/components/_global.scss */
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 389, ../scss/foundation/components/_global.scss */
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 399, ../scss/foundation/components/_global.scss */
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+/* line 402, ../scss/foundation/components/_global.scss */
+select {
+  width: 100%;
+}
+
+/* line 137, ../scss/foundation/components/_pagination.scss */
+ul.pagination {
+  display: block;
+  height: 1.5rem;
+  margin-left: -0.3125rem;
+}
+/* line 100, ../scss/foundation/components/_pagination.scss */
+ul.pagination li {
+  height: 1.5rem;
+  color: #222222;
+  font-size: 0.875rem;
+  margin-left: 0.3125rem;
+}
+/* line 106, ../scss/foundation/components/_pagination.scss */
+ul.pagination li a {
+  display: block;
+  padding: 0.0625rem 0.625rem 0.0625rem;
+  color: #999999;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 114, ../scss/foundation/components/_pagination.scss */
+ul.pagination li:hover a,
+ul.pagination li a:focus {
+  background: #e6e6e6;
+}
+/* line 51, ../scss/foundation/components/_pagination.scss */
+ul.pagination li.unavailable a {
+  cursor: default;
+  color: #999999;
+}
+/* line 56, ../scss/foundation/components/_pagination.scss */
+ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus {
+  background: transparent;
+}
+/* line 64, ../scss/foundation/components/_pagination.scss */
+ul.pagination li.current a {
+  background: #465b62;
+  color: white;
+  font-weight: bold;
+  cursor: default;
+}
+/* line 71, ../scss/foundation/components/_pagination.scss */
+ul.pagination li.current a:hover, ul.pagination li.current a:focus {
+  background: #465b62;
+}
+/* line 124, ../scss/foundation/components/_pagination.scss */
+ul.pagination li {
+  float: left;
+  display: block;
+}
+
+/* Pagination centred wrapper */
+/* line 142, ../scss/foundation/components/_pagination.scss */
+.pagination-centered {
+  text-align: center;
+}
+/* line 124, ../scss/foundation/components/_pagination.scss */
+.pagination-centered ul.pagination li {
+  float: none;
+  display: inline-block;
+}
+
+/* Start to customize Reverie */
+/* line 5, ../scss/style-reverie/_general.scss */
+a, a:visited, a:hover, a:visited:hover {
+  -webkit-transition: all 100ms linear;
+  -moz-transition: all 100ms linear;
+  -o-transition: all 100ms linear;
+  transition: all 100ms linear;
+}
+
+/* line 10, ../scss/style-reverie/_general.scss */
+body > header.contain-to-grid {
+  margin-bottom: 2rem;
+  max-width: 100%;
+  padding-bottom: 0;
+}
+
+/* line 22, ../scss/style-reverie/_general.scss */
+#content {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* line 33, ../scss/style-reverie/_general.scss */
+.index-card {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* line 40, ../scss/style-reverie/_general.scss */
+.post header,
+.page header {
+  margin-bottom: 1.25rem;
+}
+
+/* line 47, ../scss/style-reverie/_general.scss */
+span.author,
+time {
+  font-size: 0.9375rem;
+  color: #999;
+}
+/* line 50, ../scss/style-reverie/_general.scss */
+span.author a,
+time a {
+  color: #999;
+  font-weight: bold;
+}
+/* line 53, ../scss/style-reverie/_general.scss */
+span.author a:hover, span.author a:focus,
+time a:hover,
+time a:focus {
+  color: #444444;
+}
+
+/* line 61, ../scss/style-reverie/_general.scss */
+.entry-author {
+  background-color: #fbfbfb;
+  border: none;
+  padding: 3.125rem 5rem;
+  margin: 3.125rem -0.9375rem;
+}
+/* line 66, ../scss/style-reverie/_general.scss */
+.entry-author .avatar {
+  margin-right: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+/* line 71, ../scss/style-reverie/_general.scss */
+.entry-author h4 a {
+  color: #999;
+}
+/* line 73, ../scss/style-reverie/_general.scss */
+.entry-author h4 a:hover, .entry-author h4 a:focus {
+  color: #444444;
+}
+/* line 78, ../scss/style-reverie/_general.scss */
+.entry-author p {
+  color: #bbb;
+}
+
+/* line 85, ../scss/style-reverie/_general.scss */
+.entry-tags {
+  color: #999;
+  font-size: 0.9375rem;
+}
+/* line 88, ../scss/style-reverie/_general.scss */
+.entry-tags a {
+  color: #999;
+}
+/* line 90, ../scss/style-reverie/_general.scss */
+.entry-tags a:hover, .entry-tags a:focus {
+  color: #444444;
+}
+
+/* line 98, ../scss/style-reverie/_general.scss */
+.avatar {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  float: left;
+}
+
+/* line 104, ../scss/style-reverie/_general.scss */
+.admin-bar > .fixed {
+  margin-top: 2rem;
+}
+
+/* line 108, ../scss/style-reverie/_general.scss */
+.f-topbar-fixed > .container {
+  margin-top: 2rem;
+}
+
+/* line 3, ../scss/style-reverie/_images.scss */
+figure {
+  margin: 0 auto 1.25rem;
+}
+
+/* line 8, ../scss/style-reverie/_images.scss */
+figure img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 12, ../scss/style-reverie/_images.scss */
+img.alignright {
+  float: right;
+  margin: 0 0 18px 18px;
+}
+
+/* line 17, ../scss/style-reverie/_images.scss */
+img.alignleft {
+  float: left;
+  margin: 0 18px 18px 0;
+}
+
+/* line 22, ../scss/style-reverie/_images.scss */
+img.aligncenter {
+  display: block;
+  margin: 18px auto;
+}
+
+/* line 29, ../scss/style-reverie/_images.scss */
+.gallery dt, .gallery dl {
+  display: inline-block;
+}
+/* line 32, ../scss/style-reverie/_images.scss */
+.gallery dl {
+  margin-left: 0.5625rem;
+  margin-right: 0.5625rem;
+}
+
+/* line 39, ../scss/style-reverie/_images.scss */
+figure.figure {
+  margin: 0 auto;
+  display: table;
+}
+/* line 42, ../scss/style-reverie/_images.scss */
+figure.figure figcaption {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-style: italic;
+  padding: 8px 10px;
+  color: #999;
+  margin-bottom: 1.25rem;
+  display: table-caption;
+  caption-side: bottom;
+}
+
+/* line 54, ../scss/style-reverie/_images.scss */
+figure.alignright.figure {
+  float: right;
+  margin: 0 0 18px 18px;
+}
+
+/* line 59, ../scss/style-reverie/_images.scss */
+figure.alignleft.figure {
+  float: left;
+  margin: 0 18px 18px 0;
+}
+
+/* line 64, ../scss/style-reverie/_images.scss */
+.footer-widget {
+  background-color: #eee;
+}
+
+/* line 3, ../scss/style-reverie/_pagination.scss */
+.page-numbers {
+  color: #999;
+  display: block;
+  height: 1.5rem;
+  margin-left: -0.3125rem;
+}
+/* line 100, ../scss/foundation/components/_pagination.scss */
+.page-numbers li {
+  height: 1.5rem;
+  color: #222222;
+  font-size: 0.875rem;
+  margin-left: 0.3125rem;
+}
+/* line 106, ../scss/foundation/components/_pagination.scss */
+.page-numbers li a {
+  display: block;
+  padding: 0.0625rem 0.625rem 0.0625rem;
+  color: #999999;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 114, ../scss/foundation/components/_pagination.scss */
+.page-numbers li:hover a,
+.page-numbers li a:focus {
+  background: #e6e6e6;
+}
+/* line 51, ../scss/foundation/components/_pagination.scss */
+.page-numbers li.unavailable a {
+  cursor: default;
+  color: #999999;
+}
+/* line 56, ../scss/foundation/components/_pagination.scss */
+.page-numbers li.unavailable:hover a, .page-numbers li.unavailable a:focus {
+  background: transparent;
+}
+/* line 64, ../scss/foundation/components/_pagination.scss */
+.page-numbers li.current a {
+  background: #465b62;
+  color: white;
+  font-weight: bold;
+  cursor: default;
+}
+/* line 71, ../scss/foundation/components/_pagination.scss */
+.page-numbers li.current a:hover, .page-numbers li.current a:focus {
+  background: #465b62;
+}
+/* line 124, ../scss/foundation/components/_pagination.scss */
+.page-numbers li {
+  float: left;
+  display: block;
+}
+
+/* line 8, ../scss/style-reverie/_pagination.scss */
+.pagination-centered ul.page-numbers li {
+  float: none;
+  display: inline-block;
+}
+
+/* line 13, ../scss/style-reverie/_pagination.scss */
+.page-numbers li span.current {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 17, ../scss/style-reverie/_pagination.scss */
+.page-numbers li {
+  margin-left: 0.5rem;
+}
+
+/* line 24, ../scss/style-reverie/_pagination.scss */
+.page-numbers li span:hover a,
+.page-numbers li span a:focus {
+  background: #e6e6e6;
+}
+/* line 27, ../scss/style-reverie/_pagination.scss */
+.page-numbers li span.current {
+  background: #465b62;
+  padding: 0.0625rem 0.625rem 0.0625rem;
+  color: white;
+  font-weight: bold;
+  cursor: default;
+}
+
+/* line 3, ../scss/style-reverie/_comment.scss */
+ol.commentlist {
+  margin-left: 0;
+  margin-top: 2em;
+}
+/* line 6, ../scss/style-reverie/_comment.scss */
+ol.commentlist p {
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+/* line 10, ../scss/style-reverie/_comment.scss */
+ol.commentlist ul.children {
+  margin-left: 4rem;
+}
+/* line 13, ../scss/style-reverie/_comment.scss */
+ol.commentlist li {
+  list-style: none;
+  margin-bottom: 2em;
+}
+/* line 17, ../scss/style-reverie/_comment.scss */
+ol.commentlist li .comment-author img {
+  float: left;
+  margin: 0 1em 0 0;
+}
+/* line 21, ../scss/style-reverie/_comment.scss */
+ol.commentlist li .author-meta {
+  display: inline-block;
+}
+/* line 23, ../scss/style-reverie/_comment.scss */
+ol.commentlist li .author-meta cite.fn {
+  font-style: normal;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+/* line 28, ../scss/style-reverie/_comment.scss */
+ol.commentlist li .author-meta time a {
+  color: #ccc;
+  font-size: 0.875rem;
+  margin-right: 0.5rem;
+}
+/* line 33, ../scss/style-reverie/_comment.scss */
+ol.commentlist li .author-meta .comment-edit-link {
+  color: #bbb;
+  font-size: 0.875rem;
+}
+/* line 38, ../scss/style-reverie/_comment.scss */
+ol.commentlist li section.comment {
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+}
+/* line 41, ../scss/style-reverie/_comment.scss */
+ol.commentlist li section.comment a.comment-reply-link {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #bbb;
+}
+/* line 45, ../scss/style-reverie/_comment.scss */
+ol.commentlist li section.comment a.comment-reply-link:hover, ol.commentlist li section.comment a.comment-reply-link:focus {
+  color: #444444;
+}
+
+/* line 2, ../scss/style-reverie/_sidebar.scss */
+#sidebar {
+  margin-top: 1.25rem;
+}
+
+/* line 8, ../scss/style-reverie/_sidebar.scss */
+#sidebar .panel, .footer-widget .panel {
+  border: none;
+  background-color: #fff;
+  padding: 1.5rem 1.875rem;
+}
+/* line 12, ../scss/style-reverie/_sidebar.scss */
+#sidebar .panel a, .footer-widget .panel a {
+  color: #999;
+  font-size: 0.9375rem;
+}
+/* line 15, ../scss/style-reverie/_sidebar.scss */
+#sidebar .panel a:hover, #sidebar .panel a:focus, .footer-widget .panel a:hover, .footer-widget .panel a:focus {
+  color: #444444;
+}
+/* line 20, ../scss/style-reverie/_sidebar.scss */
+#sidebar ul, .footer-widget ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 25, ../scss/style-reverie/_sidebar.scss */
+#sidebar .widget h4, .footer-widget .widget h4 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  color: #888;
+  font-weight: 600;
+}
+
+/* line 2, ../scss/style-reverie/_footer.scss */
+footer.full-width {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  padding-top: 3rem;
+}
+/* line 6, ../scss/style-reverie/_footer.scss */
+footer.full-width p {
+  font-size: 0.875rem;
+}
+/* line 9, ../scss/style-reverie/_footer.scss */
+footer.full-width a {
+  color: #666;
+  font-size: 0.9375rem;
+}
+/* line 12, ../scss/style-reverie/_footer.scss */
+footer.full-width a:hover, footer.full-width a:focus {
+  color: #444444;
+}
+/* line 16, ../scss/style-reverie/_footer.scss */
+footer.full-width .love-reverie {
+  border-top: 1px solid #ccc;
+  padding-top: 1.5rem;
+}
+
+@media only screen {
+  /* line 21, ../scss/style-reverie/_breakpoint-specific.scss */
+  .entry-author .avatar {
+    margin-bottom: 1.25rem;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 28, ../scss/style-reverie/_breakpoint-specific.scss */
+  #content {
+    padding: 1.875rem;
+  }
+
+  /* line 31, ../scss/style-reverie/_breakpoint-specific.scss */
+  .entry-author {
+    margin: 3.125rem -1.875rem;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 37, ../scss/style-reverie/_breakpoint-specific.scss */
+  #sidebar {
+    padding-left: 1.875rem;
+    padding-right: 0;
+    margin-top: 0;
+  }
+
+  /* line 42, ../scss/style-reverie/_breakpoint-specific.scss */
+  .footer-widget {
+    margin-top: 3rem;
+    padding-top: 2rem;
+  }
+}
+/* This doesn't style anything but shows you the selectors you can use to do styling */
+/* This is the container that holds the entire gallery */
+/* This contains each gallery item */
+/* This styles each thumb image in the gallery */
+/* this styles the image caption if one was given */
+/*
+this example floats the images next to each other, makes the thumbnails circles and centers the text and image
+*/
+/* This is the container that holds the entire gallery */
+/* This contains each gallery item */
+/* line 13, ../scss/gallery-css/_circle-images.scss */
+.gallery-item {
+  width: 30%;
+  margin: 0 1%;
+  float: left;
+  text-align: center;
+}
+
+/* This styles each thumb image in the gallery */
+/* this styles the image caption if one was given */
+/* line 27, ../scss/gallery-css/_circle-images.scss */
+.gallery-caption {
+  text-align: center;
+}
+
+/*Polaroid effect, this makes the pictures look like polaroids,
+
+Works best if you gave captions to the images in the gallery
+*/
+/*Before we add the polaroid styling we give some general styles
+change it how you like*/
+/* line 9, ../scss/gallery-css/_polaroid-effect.scss */
+.gallery-item {
+  width: 31.7%;
+  margin: 0 0.5rem 1.25rem 0.5rem;
+  float: left;
+  text-align: center;
+  background-color: #fff;
+}
+
+/*
+Here is the modifed css from
+http://zurb.com/playground/css3-polaroids
+/*
+/* By default, we tilt all our images -2 degrees */
+/* Rotate all even images 2 degrees */
+/* Don't rotate every third image, but offset its position */
+/* Rotate every fifth image by 5 degrees and offset it */
+/* Keep default rotate for every eighth, but offset it */
+/* Keep default rotate for every eleventh, but offset it */
+/* Scale the images on hover, add transitions for smoothing things out, and ensure the hover appears on top */
+/* line 77, ../scss/gallery-css/_polaroid-effect.scss */
+.gallery-item:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+  position: relative;
+  z-index: 5;
+}
+
+/* Add drop shadows and smooth out the transition (Safari only) */
+/* line 87, ../scss/gallery-css/_polaroid-effect.scss */
+.gallery-item {
+  -webkit-transition: -webkit-transform .15s linear;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* On hover, darken the shadows a bit */
+/* line 95, ../scss/gallery-css/_polaroid-effect.scss */
+.gallery-item {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* line 78, ../scss/style.scss */
+h1, h2, h3, h4, h5, h6, ul, ol, dl, p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+/* line 83, ../scss/style.scss */
+ul, ol, dl, p {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  list-style-type: none;
+}
+
+/* line 92, ../scss/style.scss */
+#headerNav {
+  max-width: 95rem;
+  background-color: #fff;
+  margin-bottom: 0rem;
+}
+
+/* line 98, ../scss/style.scss */
+.container {
+  max-width: 95em;
+  margin: 0 auto;
+}
+
+/* line 107, ../scss/style.scss */
+.headerimage {
+  margin: 1rem 1rem 0rem 0rem;
+}
+/* line 110, ../scss/style.scss */
+.headerimage img {
+  display: block;
+  margin: auto;
+}
+
+/* line 116, ../scss/style.scss */
+#homeDescription {
+  margin-bottom: 5rem;
+}
+
+/* line 122, ../scss/style.scss */
+#containerHome #sidebar {
+  padding: 3rem 3rem 0 3rem;
+}
+/* line 125, ../scss/style.scss */
+#containerHome #sidebar article {
+  margin-bottom: 11.5rem;
+}
+
+/* line 131, ../scss/style.scss */
+.widgettitle {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 1rem 0 1rem 1rem;
+  border-top: 1px #ddd solid;
+  border-bottom: 1px #ddd solid;
+}
+
+/* line 139, ../scss/style.scss */
+#mainAreaHome {
+  padding: 3rem 3rem 0 3rem;
+  border: none;
+  background-color: #fff;
+}
+
+/* line 150, ../scss/style.scss */
+.single-page {
+  min-height: 27.5rem;
+}
+
+/* line 158, ../scss/style.scss */
+.item {
+  width: 30rem;
+  margin: 20px 20px 10px 0px;
+  padding: 1rem;
+  float: left;
+  background-color: #ffffff;
+  border: solid 1px #B4BBCD;
+  min-height: 50px;
+  text-align: left;
+  word-wrap: break-word;
+}
+/* line 169, ../scss/style.scss */
+.item p {
+  clear: both;
+}
+
+/* line 174, ../scss/style.scss */
+#imageAbout {
+  float: left;
+  padding: 2rem 2rem 2rem 0rem;
+}
+
+/* line 183, ../scss/style.scss */
+footer.full-width {
+  border: none;
+  margin: 0 auto;
+}
+
+/* line 192, ../scss/style.scss */
+.gallery h3 {
+  margin: 2rem 0 2rem;
+}
+
+/* line 196, ../scss/style.scss */
+.gallery-item {
+  padding: 0.5rem;
+}
+
+/* line 202, ../scss/style.scss */
+.gallery-item p {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 320px !important;
+  width: auto;
+  height: 315px !important;
+  height: auto;
+}
+
+/* line 217, ../scss/style.scss */
+.recentcomments {
+  color: #999;
+}
+
+/* line 221, ../scss/style.scss */
+#sidebar .widget {
+  border-radius: 0.5rem;
+}
+
+/* line 226, ../scss/style.scss */
+#mainAreaAcheive {
+  padding: 3rem 5rem 0 2rem;
+  border: none;
+  background-color: #fff;
+}
+
+/* line 238, ../scss/style.scss */
+.container #sidebar {
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+/* line 247, ../scss/style.scss */
+.single-page {
+  width: 70rem;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+/* line 255, ../scss/style.scss */
+#pageTimeLine {
+  margin: auto;
+  margin-top: 2rem;
+}
+
+/* line 270, ../scss/style.scss */
+#myWidgetArea {
+  margin-top: 0.8rem;
+}
+/* line 273, ../scss/style.scss */
+#myWidgetArea .widget_bg {
+  background-color: #fafafa;
+  margin: 1rem;
+  padding: 1rem 0;
+  border-radius: 5px;
+}
+/* line 279, ../scss/style.scss */
+#myWidgetArea .widget_bg #search {
+  margin: 2rem 2rem 3rem 2rem;
+}
+/* line 282, ../scss/style.scss */
+#myWidgetArea .widget_bg #archives, #myWidgetArea .widget_bg #meta {
+  margin: 2rem;
+}
