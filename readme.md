@@ -1,6 +1,6 @@
 ## Your Whole Life
 
-[Website Link](http://wpmmp.bmcc.cuny.edu/~stamura/350final/)
+[(Link) Your Whole Life](http://wpmmp.bmcc.cuny.edu/~stamura/350final/)
 
 ### Summery:  
 WordPress theme for a blog you and your family can collaborate on the same account's pages
